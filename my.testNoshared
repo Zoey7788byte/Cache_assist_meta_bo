@@ -1,0 +1,1641 @@
+nohup: ignoring input
+
+===== 使用ID信息初始化模型大小和计算需求 =====
+
+===== 使用模型信息初始化计算强度 rho_m =====
+警告 模型 ID:0 (resnet152, shared) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:1 (mobilenet, shared) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:2 (resnet18, shared) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:3 (resnet34, shared) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:4 (resnet50, shared) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:5 (resnet101, shared) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:6 (vgg16, shared) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:7 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:8 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:9 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:10 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:11 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:12 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:13 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:14 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:15 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+模型 ID:16 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+警告 模型 ID:17 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:18 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:19 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+警告 模型 ID:20 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:21 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+模型 ID:22 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+模型 ID:23 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:24 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:25 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:26 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:27 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:28 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:29 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:30 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:31 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:32 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:33 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:34 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+警告 模型 ID:35 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:36 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:37 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:38 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:39 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:40 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:41 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:42 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:43 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:44 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:45 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:46 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:47 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+模型 ID:48 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+警告 模型 ID:49 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:50 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:51 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:52 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+模型 ID:53 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:54 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:55 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:56 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+警告 模型 ID:57 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:58 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:59 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:60 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:61 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+警告 模型 ID:62 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:63 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:64 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:65 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:66 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:67 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+警告 模型 ID:68 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:69 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:70 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:71 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+模型 ID:72 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:73 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:74 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:75 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:76 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:77 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:78 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:79 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:80 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:81 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:82 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+模型 ID:83 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:84 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:85 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:86 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+警告 模型 ID:87 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:88 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+模型 ID:89 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+警告 模型 ID:90 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:91 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:92 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:93 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:94 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:95 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:96 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:97 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:98 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+模型 ID:99 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+警告 模型 ID:100 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:101 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:102 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:103 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:104 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:105 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:106 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:107 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:108 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:109 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:110 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:111 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:112 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:113 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:114 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+模型 ID:115 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+模型 ID:116 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:117 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:118 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:119 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:120 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+模型 ID:121 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:122 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:123 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:124 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:125 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:126 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:127 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:128 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:129 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:130 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:131 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:132 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:133 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:134 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:135 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:136 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:137 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:138 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:139 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:140 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:141 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:142 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:143 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:144 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:145 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:146 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:147 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:148 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:149 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:150 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:151 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:152 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:153 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:154 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:155 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:156 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:157 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:158 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:159 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:160 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:161 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:162 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:163 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:164 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:165 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:166 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:167 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:168 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+模型 ID:169 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:170 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:171 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:172 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:173 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:174 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:175 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:176 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:177 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:178 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:179 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:180 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:181 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:182 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:183 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:184 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:185 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:186 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:187 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:188 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:189 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:190 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:191 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:192 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:193 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:194 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:195 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+模型 ID:196 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:197 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:198 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:199 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+警告 模型 ID:200 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:201 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:202 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:203 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:204 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:205 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:206 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+模型 ID:207 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:208 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:209 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:210 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:211 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:212 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:213 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+模型 ID:214 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+警告 模型 ID:215 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:216 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:217 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:218 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:219 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:220 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:221 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:222 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:223 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:224 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:225 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:226 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:227 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:228 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:229 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:230 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:231 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:232 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:233 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:234 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:235 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:236 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:237 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:238 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:239 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:240 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:241 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:242 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:243 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:244 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:245 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:246 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:247 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:248 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:249 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:250 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:251 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+警告 模型 ID:252 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:253 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:254 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:255 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:256 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:257 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:258 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:259 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:260 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:261 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:262 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:263 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:264 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:265 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:266 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:267 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+模型 ID:268 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:269 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:270 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:271 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:272 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+模型 ID:273 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:274 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:275 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:276 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:277 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:278 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:279 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:280 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:281 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:282 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:283 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:284 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:285 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:286 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:287 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:288 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:289 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:290 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:291 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:292 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:293 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:294 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:295 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:296 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:297 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:298 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:299 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:300 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:301 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:302 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:303 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:304 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:305 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:306 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:307 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:308 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:309 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:310 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:311 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:312 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:313 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:314 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:315 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:316 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:317 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:318 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:319 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:320 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:321 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:322 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:323 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:324 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:325 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:326 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:327 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:328 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:329 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:330 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:331 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:332 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:333 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:334 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:335 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:336 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:337 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:338 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:339 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:340 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:341 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:342 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:343 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:344 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:345 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:346 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+警告 模型 ID:347 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:348 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:349 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:350 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:351 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+模型 ID:352 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:353 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:354 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:355 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:356 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:357 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:358 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:359 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:360 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:361 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:362 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:363 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:364 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:365 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:366 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:367 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:368 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:369 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:370 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:371 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:372 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:373 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:374 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+模型 ID:375 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+模型 ID:376 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:377 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:378 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:379 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:380 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:381 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:382 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:383 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:384 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:385 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:386 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:387 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:388 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:389 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:390 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:391 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:392 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:393 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:394 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:395 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:396 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:397 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:398 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:399 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+警告 模型 ID:400 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:401 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:402 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:403 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:404 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:405 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:406 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:407 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:408 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:409 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:410 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:411 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:412 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:413 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+警告 模型 ID:414 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:415 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:416 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:417 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:418 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:419 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:420 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:421 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:422 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:423 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+警告 模型 ID:424 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:425 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+模型 ID:426 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+模型 ID:427 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:428 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:429 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:430 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:431 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:432 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:433 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:434 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:435 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:436 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:437 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:438 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:439 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:440 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:441 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:442 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:443 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:444 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:445 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:446 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:447 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:448 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:449 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:450 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:451 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:452 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:453 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+警告 模型 ID:454 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:455 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:456 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:457 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:458 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:459 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:460 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:461 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:462 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:463 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+模型 ID:464 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:465 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:466 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:467 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:468 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:469 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:470 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:471 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:472 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:473 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:474 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:475 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:476 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:477 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:478 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:479 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:480 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+警告 模型 ID:481 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:482 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:483 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:484 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:485 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:486 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:487 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:488 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:489 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:490 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:491 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:492 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:493 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:494 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:495 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:496 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:497 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:498 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:499 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:500 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:501 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:502 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+模型 ID:503 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:504 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:505 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:506 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:507 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+警告 模型 ID:508 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:509 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:510 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:511 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:512 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:513 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:514 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:515 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:516 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:517 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:518 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:519 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+警告 模型 ID:520 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:521 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:522 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:523 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:524 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:525 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:526 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:527 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:528 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:529 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:530 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:531 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:532 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:533 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:534 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:535 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:536 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:537 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:538 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:539 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:540 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:541 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:542 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:543 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:544 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:545 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:546 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:547 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:548 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:549 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:550 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+模型 ID:551 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:552 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:553 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:554 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:555 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:556 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:557 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:558 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+警告 模型 ID:559 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:560 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:561 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:562 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+警告 模型 ID:563 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:564 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:565 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:566 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:567 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:568 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:569 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:570 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:571 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:572 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:573 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+模型 ID:574 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:575 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:576 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:577 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:578 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:579 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:580 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:581 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:582 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:583 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+警告 模型 ID:584 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:585 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:586 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+警告 模型 ID:587 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:588 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+模型 ID:589 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:590 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:591 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:592 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:593 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:594 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:595 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:596 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+模型 ID:597 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:598 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:599 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:600 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+模型 ID:601 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+模型 ID:602 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:603 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:604 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:605 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:606 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:607 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:608 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+模型 ID:609 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:610 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:611 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:612 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:613 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:614 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:615 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:616 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+警告 模型 ID:617 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:618 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:619 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:620 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:621 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:622 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:623 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:624 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:625 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+模型 ID:626 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:627 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:628 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+模型 ID:629 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+警告 模型 ID:630 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:631 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:632 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:633 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:634 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:635 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:636 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:637 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:638 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:639 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:640 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+警告 模型 ID:641 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:642 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+警告 模型 ID:643 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:644 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:645 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:646 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:647 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:648 (mobilenet, specific) -> 识别为 mobilenet，rho_m = 3.0e+08 FLOPs/MB
+模型 ID:649 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:650 (resnet34, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:651 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+模型 ID:652 (resnet50, specific) -> 识别为 resnet50，rho_m = 4.0e+09 FLOPs/MB
+模型 ID:653 (resnet18, specific) -> 识别为 resnet18，rho_m = 1.8e+09 FLOPs/MB
+警告 模型 ID:654 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:655 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:656 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:657 (resnet101, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:658 (resnet152, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+警告 模型 ID:659 (vgg16, specific) -> 未识别类型，使用默认值 rho_m = 1e9 FLOPs/MB
+注册预训练模型: |resnet152
+注册预训练模型: |mobilenet
+注册预训练模型: |resnet18
+注册预训练模型: |resnet34
+注册预训练模型: |resnet50
+注册预训练模型: |resnet101
+注册预训练模型: |vgg16
+
+注册完成。成功数: 7/660, 跳过数: 653/660
+NUM_MODELS:  660 7 653
+配置: 1节点, 653模型, 1000000时间槽
+共享模型: 7, 特定模型: 653
+检测到历史请求文件 requests/request_history_base2.5_d1.25_T100_modezipf_alpha_minCat3_maxCat20_overlap0.3_complexity0.5-2.0_models660.json，直接加载数据...
+成功加载历史请求记录: 1000000 条记录
+
+===== 使用ID信息初始化模型精度 =====
+============================================================
+Shared Mode: ENABLED
+============================================================
+静态张量预计算完成
+预加载数据形状: torch.Size([1000000, 1, 660])
+模型已从 ./saved_models/meta_policy_Test_Innerlr0.1_Melr0.01_HIDDEN_DIM256_train_NumTask100_epoch130.pth 加载
+Model load success
+logit_scale               | scalar param (value=0.1000)
+fc1.weight                | mean=-0.0000, std=0.0263
+fc1.bias                  | mean=0.0000, std=0.0000
+fc2.weight                | mean=-0.0001, std=0.0626
+fc2.bias                  | mean=0.0000, std=0.0000
+fc_out.weight             | mean=0.0000, std=0.0004
+fc_out.bias               | mean=0.0000, std=0.0000
+ln1.weight                | mean=1.0000, std=0.0000
+ln1.bias                  | mean=0.0000, std=0.0000
+ln2.weight                | mean=1.0000, std=0.0000
+ln2.bias                  | mean=0.0000, std=0.0000
+
+=== Model Parameter Summary ===
+Total parameters     : 1,082,409
+Trainable parameters : 1,082,409
+Checked layers       : 11
+Mean range           : (-8.375808829441667e-05, 1.0)
+Std range            : (0.0, 0.06264811754226685)
+Model status         : OK
+模型参数检查通过，模型加载正常。
+Meta-training completed!
+==================================================
+
+
+===== 使用ID信息初始化模型精度 =====
+
+Starting online deployment...
+
+=== Online test, Alg is Meta
+
+=== 任务数 1/20 ===
+Starting new task 100
+Final adaptation completed for task 100
+任务性能指标: 平均命中率=0.0000, 平均精度=0.8730, 平均云访问率=1.0000
+任务成本指标: 总成本=190.08, 切换=161.92, 通信=10.00, 更新=18.16, 推理=0.00, 精度成本=0.00
+
+
+=== 任务数 2/20 ===
+Starting new task 101
+Final adaptation completed for task 101
+任务性能指标: 平均命中率=0.0000, 平均精度=0.6950, 平均云访问率=1.0000
+任务成本指标: 总成本=177.95, 切换=153.57, 通信=10.00, 更新=14.38, 推理=0.00, 精度成本=0.00
+
+
+=== 任务数 3/20 ===
+Starting new task 102
+Final adaptation completed for task 102
+任务性能指标: 平均命中率=0.0000, 平均精度=0.6810, 平均云访问率=1.0000
+任务成本指标: 总成本=185.18, 切换=160.47, 通信=10.00, 更新=14.71, 推理=0.00, 精度成本=0.00
+
+
+=== 任务数 4/20 ===
+Starting new task 103
+Final adaptation completed for task 103
+任务性能指标: 平均命中率=0.0000, 平均精度=0.6152, 平均云访问率=1.0000
+任务成本指标: 总成本=199.38, 切换=175.18, 通信=10.00, 更新=14.20, 推理=0.00, 精度成本=0.00
+
+
+=== 任务数 5/20 ===
+Starting new task 104
+Final adaptation completed for task 104
+任务性能指标: 平均命中率=0.0000, 平均精度=0.9131, 平均云访问率=1.0000
+任务成本指标: 总成本=181.42, 切换=152.83, 通信=10.00, 更新=17.74, 推理=0.00, 精度成本=0.85
+
+
+=== 任务数 6/20 ===
+Starting new task 105
+Final adaptation completed for task 105
+任务性能指标: 平均命中率=0.0000, 平均精度=0.8625, 平均云访问率=1.0000
+任务成本指标: 总成本=201.36, 切换=177.19, 通信=10.00, 更新=14.17, 推理=0.00, 精度成本=0.00
+
+
+=== 任务数 7/20 ===
+Starting new task 106
+Final adaptation completed for task 106
+任务性能指标: 平均命中率=0.0000, 平均精度=0.7259, 平均云访问率=1.0000
+任务成本指标: 总成本=185.38, 切换=157.16, 通信=10.00, 更新=18.22, 推理=0.00, 精度成本=0.00
+
+
+=== 任务数 8/20 ===
+Starting new task 107
+Final adaptation completed for task 107
+任务性能指标: 平均命中率=0.0000, 平均精度=0.8144, 平均云访问率=1.0000
+任务成本指标: 总成本=189.36, 切换=162.25, 通信=10.00, 更新=17.10, 推理=0.00, 精度成本=0.00
+
+
+=== 任务数 9/20 ===
+Starting new task 108
+Final adaptation completed for task 108
+任务性能指标: 平均命中率=0.0300, 平均精度=0.5895, 平均云访问率=0.9700
+任务成本指标: 总成本=204.22, 切换=173.05, 通信=9.70, 更新=21.45, 推理=0.01, 精度成本=0.00
+
+
+=== 任务数 10/20 ===
+Starting new task 109
+Final adaptation completed for task 109
+任务性能指标: 平均命中率=0.0000, 平均精度=0.7268, 平均云访问率=1.0000
+任务成本指标: 总成本=197.26, 切换=167.55, 通信=10.00, 更新=19.71, 推理=0.00, 精度成本=0.00
+
+
+=== 任务数 11/20 ===
+Starting new task 110
+Final adaptation completed for task 110
+任务性能指标: 平均命中率=0.0000, 平均精度=0.6819, 平均云访问率=1.0000
+任务成本指标: 总成本=193.70, 切换=164.69, 通信=10.00, 更新=19.01, 推理=0.00, 精度成本=0.00
+
+
+=== 任务数 12/20 ===
+Starting new task 111
+Final adaptation completed for task 111
+任务性能指标: 平均命中率=0.0000, 平均精度=0.6401, 平均云访问率=1.0000
+任务成本指标: 总成本=180.36, 切换=157.39, 通信=10.00, 更新=12.97, 推理=0.00, 精度成本=0.00
+
+
+=== 任务数 13/20 ===
+Starting new task 112
+Final adaptation completed for task 112
+任务性能指标: 平均命中率=0.0000, 平均精度=0.8787, 平均云访问率=1.0000
+任务成本指标: 总成本=173.61, 切换=150.19, 通信=10.00, 更新=13.42, 推理=0.00, 精度成本=0.00
+
+
+=== 任务数 14/20 ===
+Starting new task 113
+Final adaptation completed for task 113
+任务性能指标: 平均命中率=0.0000, 平均精度=0.8762, 平均云访问率=1.0000
+任务成本指标: 总成本=203.36, 切换=168.76, 通信=10.00, 更新=24.60, 推理=0.00, 精度成本=0.00
+
+
+=== 任务数 15/20 ===
+Starting new task 114
+Final adaptation completed for task 114
+任务性能指标: 平均命中率=0.0000, 平均精度=0.6761, 平均云访问率=1.0000
+任务成本指标: 总成本=171.24, 切换=145.41, 通信=10.00, 更新=15.83, 推理=0.00, 精度成本=0.00
+
+
+=== 任务数 16/20 ===
+Starting new task 115
+Final adaptation completed for task 115
+任务性能指标: 平均命中率=0.0000, 平均精度=0.8351, 平均云访问率=1.0000
+任务成本指标: 总成本=175.89, 切换=151.76, 通信=10.00, 更新=14.13, 推理=0.00, 精度成本=0.00
+
+
+=== 任务数 17/20 ===
+Starting new task 116
+Final adaptation completed for task 116
+任务性能指标: 平均命中率=0.0000, 平均精度=0.9179, 平均云访问率=1.0000
+任务成本指标: 总成本=196.16, 切换=165.77, 通信=10.00, 更新=20.36, 推理=0.00, 精度成本=0.03
+
+
+=== 任务数 18/20 ===
+Starting new task 117
+Final adaptation completed for task 117
+任务性能指标: 平均命中率=0.0000, 平均精度=0.6890, 平均云访问率=1.0000
+任务成本指标: 总成本=180.02, 切换=159.12, 通信=10.00, 更新=10.67, 推理=0.00, 精度成本=0.24
+
+
+=== 任务数 19/20 ===
+Starting new task 118
+Final adaptation completed for task 118
+任务性能指标: 平均命中率=0.0000, 平均精度=0.8351, 平均云访问率=1.0000
+任务成本指标: 总成本=183.09, 切换=154.03, 通信=10.00, 更新=18.34, 推理=0.00, 精度成本=0.72
+
+
+=== 任务数 20/20 ===
+Starting new task 119
+Final adaptation completed for task 119
+任务性能指标: 平均命中率=0.0000, 平均精度=0.8748, 平均云访问率=1.0000
+任务成本指标: 总成本=194.05, 切换=168.98, 通信=10.00, 更新=15.06, 推理=0.00, 精度成本=0.00
+
+
+=== 所有任务完成 ===
+基于任务平均的总体性能指标:
+  平均命中率=0.0015, 平均精度=0.7701, 平均云访问率=0.9985
+  总成本=3763.06, 切换=3227.27, 通信=199.70, 更新=334.25, 推理=0.01, 精度成本=1.84
+
+基于时隙平均的总体性能指标:
+  平均命中率=0.0015, 平均精度=0.7701, 平均云访问率=0.9985
+  总成本=3763.06, 切换=3227.27, 通信=199.70, 更新=334.25, 推理=0.01, 精度成本=1.84
+
+总耗时: 269.99秒
+
+Excel文件已保存: ./results/Meta/Meta_TaksNum_20_task_length_100_NoUpdate_NoShared.xlsx
+包含工作表: 最终结果 | 任务性能历史 | 时隙性能数据
+
+===== 使用ID信息初始化模型精度 =====
+
+===== 使用ID信息初始化模型精度 =====
+
+Starting online deployment...
+
+=== Online test, Alg is MPUTA
+
+=== 任务数 1/20 ===
+任务性能指标: 平均命中率=1.0000, 平均精度=0.8480, 平均云访问率=0.0000
+任务成本指标: 总成本=153.70, 切换=153.40, 通信=0.10, 更新=0.00, 推理=0.20, 精度成本=0.00
+
+
+=== 任务数 2/20 ===
+任务性能指标: 平均命中率=1.0000, 平均精度=0.6826, 平均云访问率=0.0000
+任务成本指标: 总成本=82.77, 切换=82.47, 通信=0.10, 更新=0.00, 推理=0.20, 精度成本=0.00
+
+
+=== 任务数 3/20 ===
+任务性能指标: 平均命中率=1.0000, 平均精度=0.6739, 平均云访问率=0.0000
+任务成本指标: 总成本=76.31, 切换=76.01, 通信=0.10, 更新=0.00, 推理=0.20, 精度成本=0.00
+
+
+=== 任务数 4/20 ===
+任务性能指标: 平均命中率=0.6400, 平均精度=0.5950, 平均云访问率=0.3600
+任务成本指标: 总成本=8.12, 切换=4.33, 通信=3.66, 更新=0.00, 推理=0.13, 精度成本=0.00
+
+
+=== 任务数 5/20 ===
+任务性能指标: 平均命中率=1.0000, 平均精度=0.9178, 平均云访问率=0.0000
+任务成本指标: 总成本=352.46, 切换=352.16, 通信=0.10, 更新=0.00, 推理=0.20, 精度成本=0.00
+
+
+=== 任务数 6/20 ===
+任务性能指标: 平均命中率=1.0000, 平均精度=0.8463, 平均云访问率=0.0000
+任务成本指标: 总成本=148.09, 切换=147.79, 通信=0.10, 更新=0.00, 推理=0.20, 精度成本=0.00
+
+
+=== 任务数 7/20 ===
+任务性能指标: 平均命中率=1.0000, 平均精度=0.7241, 平均云访问率=0.0000
+任务成本指标: 总成本=247.47, 切换=247.17, 通信=0.10, 更新=0.00, 推理=0.20, 精度成本=0.00
+
+
+=== 任务数 8/20 ===
+任务性能指标: 平均命中率=1.0000, 平均精度=0.8105, 平均云访问率=0.0000
+任务成本指标: 总成本=527.43, 切换=527.13, 通信=0.10, 更新=0.00, 推理=0.20, 精度成本=0.00
+
+
+=== 任务数 9/20 ===
+任务性能指标: 平均命中率=1.0000, 平均精度=0.5945, 平均云访问率=0.0000
+任务成本指标: 总成本=148.88, 切换=148.58, 通信=0.10, 更新=0.00, 推理=0.20, 精度成本=0.00
+
+
+=== 任务数 10/20 ===
+任务性能指标: 平均命中率=1.0000, 平均精度=0.7242, 平均云访问率=0.0000
+任务成本指标: 总成本=417.31, 切换=417.01, 通信=0.10, 更新=0.00, 推理=0.20, 精度成本=0.00
+
+
+=== 任务数 11/20 ===
+任务性能指标: 平均命中率=1.0000, 平均精度=0.6769, 平均云访问率=0.0000
+任务成本指标: 总成本=159.86, 切换=159.56, 通信=0.10, 更新=0.00, 推理=0.20, 精度成本=0.00
+
+
+=== 任务数 12/20 ===
+任务性能指标: 平均命中率=0.9900, 平均精度=0.6399, 平均云访问率=0.0100
+任务成本指标: 总成本=477.28, 切换=476.89, 通信=0.20, 更新=0.00, 推理=0.20, 精度成本=0.00
+
+
+=== 任务数 13/20 ===
+任务性能指标: 平均命中率=1.0000, 平均精度=0.8659, 平均云访问率=0.0000
+任务成本指标: 总成本=419.92, 切换=419.62, 通信=0.10, 更新=0.00, 推理=0.20, 精度成本=0.00
+
+
+=== 任务数 14/20 ===
+任务性能指标: 平均命中率=1.0000, 平均精度=0.8509, 平均云访问率=0.0000
+任务成本指标: 总成本=68.38, 切换=68.08, 通信=0.10, 更新=0.00, 推理=0.20, 精度成本=0.00
+
+
+=== 任务数 15/20 ===
+任务性能指标: 平均命中率=1.0000, 平均精度=0.6582, 平均云访问率=0.0000
+任务成本指标: 总成本=59.99, 切换=59.69, 通信=0.10, 更新=0.00, 推理=0.20, 精度成本=0.00
+
+
+=== 任务数 16/20 ===
+任务性能指标: 平均命中率=1.0000, 平均精度=0.8383, 平均云访问率=0.0000
+任务成本指标: 总成本=526.04, 切换=525.74, 通信=0.10, 更新=0.00, 推理=0.20, 精度成本=0.00
+
+
+=== 任务数 17/20 ===
+任务性能指标: 平均命中率=1.0000, 平均精度=0.9012, 平均云访问率=0.0000
+任务成本指标: 总成本=127.00, 切换=126.70, 通信=0.10, 更新=0.00, 推理=0.20, 精度成本=0.00
+
+
+=== 任务数 18/20 ===
+任务性能指标: 平均命中率=0.9600, 平均精度=0.6974, 平均云访问率=0.0400
+任务成本指标: 总成本=293.82, 切换=293.14, 通信=0.50, 更新=0.00, 推理=0.19, 精度成本=0.00
+
+
+=== 任务数 19/20 ===
+任务性能指标: 平均命中率=1.0000, 平均精度=0.8272, 平均云访问率=0.0000
+任务成本指标: 总成本=174.91, 切换=174.61, 通信=0.10, 更新=0.00, 推理=0.20, 精度成本=0.00
+
+
+=== 任务数 20/20 ===
+任务性能指标: 平均命中率=0.9200, 平均精度=0.8358, 平均云访问率=0.0800
+任务成本指标: 总成本=34.03, 切换=32.95, 通信=0.89, 更新=0.00, 推理=0.18, 精度成本=0.00
+
+
+=== 所有任务完成 ===
+基于任务平均的总体性能指标:
+  平均命中率=0.9755, 平均精度=0.7604, 平均云访问率=0.0245
+  总成本=4503.78, 切换=4493.03, 通信=6.85, 更新=0.00, 推理=3.90, 精度成本=0.00
+
+基于时隙平均的总体性能指标:
+  平均命中率=0.9755, 平均精度=0.7604, 平均云访问率=0.0245
+  总成本=4503.78, 切换=4493.03, 通信=6.85, 更新=0.00, 推理=3.90, 精度成本=0.00
+
+总耗时: 339.47秒
+
+Excel文件已保存: ./results/MPUTA/MPUTA_TaksNum_20_task_length_100_NoUpdate_NoShared.xlsx
+包含工作表: 最终结果 | 任务性能历史 | 时隙性能数据
+
+===== 使用ID信息初始化模型精度 =====
+
+===== 使用ID信息初始化模型精度 =====
+
+Starting online deployment...
+
+=== Online test, Alg is Random
+
+=== 任务数 1/20 ===
+任务性能指标: 平均命中率=0.0200, 平均精度=0.8730, 平均云访问率=0.9800
+任务成本指标: 总成本=3643.63, 切换=3146.87, 通信=9.80, 更新=486.96, 推理=0.00, 精度成本=0.00
+
+
+=== 任务数 2/20 ===
+任务性能指标: 平均命中率=0.0200, 平均精度=0.6950, 平均云访问率=0.9800
+任务成本指标: 总成本=3648.81, 切换=3155.92, 通信=9.80, 更新=483.09, 推理=0.00, 精度成本=0.00
+
+
+=== 任务数 3/20 ===
+任务性能指标: 平均命中率=0.0500, 平均精度=0.6810, 平均云访问率=0.9500
+任务成本指标: 总成本=3582.68, 切换=3143.34, 通信=9.50, 更新=429.82, 推理=0.01, 精度成本=0.00
+
+
+=== 任务数 4/20 ===
+任务性能指标: 平均命中率=0.0600, 平均精度=0.6152, 平均云访问率=0.9400
+任务成本指标: 总成本=3659.91, 切换=3170.75, 通信=9.41, 更新=479.75, 推理=0.01, 精度成本=0.00
+
+
+=== 任务数 5/20 ===
+任务性能指标: 平均命中率=0.0300, 平均精度=0.9221, 平均云访问率=0.9700
+任务成本指标: 总成本=3600.29, 切换=3137.51, 通信=9.70, 更新=453.07, 推理=0.01, 精度成本=0.00
+
+
+=== 任务数 6/20 ===
+任务性能指标: 平均命中率=0.0100, 平均精度=0.8625, 平均云访问率=0.9900
+任务成本指标: 总成本=3601.59, 切换=3172.50, 通信=9.90, 更新=419.19, 推理=0.00, 精度成本=0.00
+
+
+=== 任务数 7/20 ===
+任务性能指标: 平均命中率=0.0600, 平均精度=0.7259, 平均云访问率=0.9400
+任务成本指标: 总成本=3641.29, 切换=3161.65, 通信=9.41, 更新=470.23, 推理=0.01, 精度成本=0.00
+
+
+=== 任务数 8/20 ===
+任务性能指标: 平均命中率=0.0200, 平均精度=0.8144, 平均云访问率=0.9800
+任务成本指标: 总成本=3627.69, 切换=3163.73, 通信=9.80, 更新=454.16, 推理=0.00, 精度成本=0.00
+
+
+=== 任务数 9/20 ===
+任务性能指标: 平均命中率=0.0400, 平均精度=0.5989, 平均云访问率=0.9600
+任务成本指标: 总成本=3650.74, 切换=3168.09, 通信=9.60, 更新=473.04, 推理=0.01, 精度成本=0.00
+
+
+=== 任务数 10/20 ===
+任务性能指标: 平均命中率=0.0400, 平均精度=0.7268, 平均云访问率=0.9600
+任务成本指标: 总成本=3680.73, 切换=3164.45, 通信=9.60, 更新=506.67, 推理=0.01, 精度成本=0.00
+
+
+=== 任务数 11/20 ===
+任务性能指标: 平均命中率=0.0300, 平均精度=0.6831, 平均云访问率=0.9700
+任务成本指标: 总成本=3620.76, 切换=3180.21, 通信=9.70, 更新=430.84, 推理=0.01, 精度成本=0.00
+
+
+=== 任务数 12/20 ===
+任务性能指标: 平均命中率=0.0100, 平均精度=0.6418, 平均云访问率=0.9900
+任务成本指标: 总成本=3605.68, 切换=3129.48, 通信=9.90, 更新=466.29, 推理=0.00, 精度成本=0.00
+
+
+=== 任务数 13/20 ===
+任务性能指标: 平均命中率=0.0300, 平均精度=0.8787, 平均云访问率=0.9700
+任务成本指标: 总成本=3594.19, 切换=3161.53, 通信=9.70, 更新=422.96, 推理=0.01, 精度成本=0.00
+
+
+=== 任务数 14/20 ===
+任务性能指标: 平均命中率=0.0100, 平均精度=0.8762, 平均云访问率=0.9900
+任务成本指标: 总成本=3647.69, 切换=3147.58, 通信=9.90, 更新=490.20, 推理=0.00, 精度成本=0.00
+
+
+=== 任务数 15/20 ===
+任务性能指标: 平均命中率=0.0300, 平均精度=0.6761, 平均云访问率=0.9700
+任务成本指标: 总成本=3563.60, 切换=3128.21, 通信=9.70, 更新=425.68, 推理=0.01, 精度成本=0.00
+
+
+=== 任务数 16/20 ===
+任务性能指标: 平均命中率=0.0100, 平均精度=0.8422, 平均云访问率=0.9900
+任务成本指标: 总成本=3596.70, 切换=3156.74, 通信=9.90, 更新=430.05, 推理=0.00, 精度成本=0.00
+
+
+=== 任务数 17/20 ===
+任务性能指标: 平均命中率=0.0000, 平均精度=0.9198, 平均云访问率=1.0000
+任务成本指标: 总成本=3616.16, 切换=3157.84, 通信=10.00, 更新=448.32, 推理=0.00, 精度成本=0.00
+
+
+=== 任务数 18/20 ===
+任务性能指标: 平均命中率=0.0500, 平均精度=0.7015, 平均云访问率=0.9500
+任务成本指标: 总成本=3571.78, 切换=3158.31, 通信=9.50, 更新=403.96, 推理=0.01, 精度成本=0.00
+
+
+=== 任务数 19/20 ===
+任务性能指标: 平均命中率=0.0200, 平均精度=0.8400, 平均云访问率=0.9800
+任务成本指标: 总成本=3586.07, 切换=3126.13, 通信=9.80, 更新=450.13, 推理=0.00, 精度成本=0.00
+
+
+=== 任务数 20/20 ===
+任务性能指标: 平均命中率=0.0100, 平均精度=0.8748, 平均云访问率=0.9900
+任务成本指标: 总成本=3592.27, 切换=3164.72, 通信=9.90, 更新=417.65, 推理=0.00, 精度成本=0.00
+
+
+=== 所有任务完成 ===
+基于任务平均的总体性能指标:
+  平均命中率=0.0275, 平均精度=0.7725, 平均云访问率=0.9725
+  总成本=72332.26, 切换=63095.55, 通信=194.56, 更新=9042.05, 推理=0.11, 精度成本=0.00
+
+基于时隙平均的总体性能指标:
+  平均命中率=0.0275, 平均精度=0.7725, 平均云访问率=0.9725
+  总成本=72332.26, 切换=63095.55, 通信=194.55, 更新=9042.05, 推理=0.11, 精度成本=0.00
+
+总耗时: 355.46秒
+
+Excel文件已保存: ./results/Random/Random_TaksNum_20_task_length_100_NoUpdate_NoShared.xlsx
+包含工作表: 最终结果 | 任务性能历史 | 时隙性能数据
+
+===== 使用ID信息初始化模型精度 =====
+
+===== 使用ID信息初始化模型精度 =====
+
+Starting online deployment...
+
+=== Online test, Alg is Greedy
+
+=== 任务数 1/20 ===
+任务性能指标: 平均命中率=0.9500, 平均精度=0.8723, 平均云访问率=0.0500
+任务成本指标: 总成本=468.54, 切换=52.61, 通信=0.60, 更新=415.15, 推理=0.19, 精度成本=0.00
+
+
+=== 任务数 2/20 ===
+任务性能指标: 平均命中率=0.9700, 平均精度=0.6945, 平均云访问率=0.0300
+任务成本指标: 总成本=504.92, 切换=33.87, 通信=0.40, 更新=470.46, 推理=0.19, 精度成本=0.00
+
+
+=== 任务数 3/20 ===
+任务性能指标: 平均命中率=0.9500, 平均精度=0.6805, 平均云访问率=0.0500
+任务成本指标: 总成本=440.61, 切换=12.84, 通信=0.60, 更新=426.99, 推理=0.19, 精度成本=0.00
+
+
+=== 任务数 4/20 ===
+任务性能指标: 平均命中率=0.8900, 平均精度=0.6145, 平均云访问率=0.1100
+任务成本指标: 总成本=557.73, 切换=106.20, 通信=1.19, 更新=450.17, 推理=0.18, 精度成本=0.00
+
+
+=== 任务数 5/20 ===
+任务性能指标: 平均命中率=0.9600, 平均精度=0.9212, 平均云访问率=0.0400
+任务成本指标: 总成本=481.71, 切换=56.53, 通信=0.50, 更新=424.49, 推理=0.19, 精度成本=0.00
+
+
+=== 任务数 6/20 ===
+任务性能指标: 平均命中率=0.9400, 平均精度=0.8619, 平均云访问率=0.0600
+任务成本指标: 总成本=495.65, 切换=72.65, 通信=0.69, 更新=422.11, 推理=0.19, 精度成本=0.00
+
+
+=== 任务数 7/20 ===
+任务性能指标: 平均命中率=0.8900, 平均精度=0.7254, 平均云访问率=0.1100
+任务成本指标: 总成本=491.29, 切换=84.26, 通信=1.19, 更新=405.67, 推理=0.18, 精度成本=0.00
+
+
+=== 任务数 8/20 ===
+任务性能指标: 平均命中率=0.9400, 平均精度=0.8136, 平均云访问率=0.0600
+任务成本指标: 总成本=494.71, 切换=68.69, 通信=0.69, 更新=425.14, 推理=0.19, 精度成本=0.00
+
+
+=== 任务数 9/20 ===
+任务性能指标: 平均命中率=0.9500, 平均精度=0.5982, 平均云访问率=0.0500
+任务成本指标: 总成本=453.42, 切换=33.45, 通信=0.60, 更新=419.18, 推理=0.19, 精度成本=0.00
+
+
+=== 任务数 10/20 ===
+任务性能指标: 平均命中率=0.9500, 平均精度=0.7262, 平均云访问率=0.0500
+任务成本指标: 总成本=480.11, 切换=20.27, 通信=0.60, 更新=459.06, 推理=0.19, 精度成本=0.00
+
+
+=== 任务数 11/20 ===
+任务性能指标: 平均命中率=0.9300, 平均精度=0.6825, 平均云访问率=0.0700
+任务成本指标: 总成本=518.60, 切换=48.11, 通信=0.79, 更新=469.51, 推理=0.19, 精度成本=0.00
+
+
+=== 任务数 12/20 ===
+任务性能指标: 平均命中率=0.8400, 平均精度=0.6414, 平均云访问率=0.1600
+任务成本指标: 总成本=552.71, 切换=111.53, 通信=1.68, 更新=439.32, 推理=0.17, 精度成本=0.00
+
+
+=== 任务数 13/20 ===
+任务性能指标: 平均命中率=0.9300, 平均精度=0.8782, 平均云访问率=0.0700
+任务成本指标: 总成本=532.66, 切换=63.41, 通信=0.79, 更新=468.27, 推理=0.19, 精度成本=0.00
+
+
+=== 任务数 14/20 ===
+任务性能指标: 平均命中率=0.9400, 平均精度=0.8753, 平均云访问率=0.0600
+任务成本指标: 总成本=469.47, 切换=51.95, 通信=0.69, 更新=416.64, 推理=0.19, 精度成本=0.00
+
+
+=== 任务数 15/20 ===
+任务性能指标: 平均命中率=0.9400, 平均精度=0.6756, 平均云访问率=0.0600
+任务成本指标: 总成本=428.97, 切换=12.05, 通信=0.69, 更新=416.04, 推理=0.19, 精度成本=0.00
+
+
+=== 任务数 16/20 ===
+任务性能指标: 平均命中率=0.9500, 平均精度=0.8418, 平均云访问率=0.0500
+任务成本指标: 总成本=553.14, 切换=65.64, 通信=0.60, 更新=486.72, 推理=0.19, 精度成本=0.00
+
+
+=== 任务数 17/20 ===
+任务性能指标: 平均命中率=0.9100, 平均精度=0.9193, 平均云访问率=0.0900
+任务成本指标: 总成本=542.71, 切换=76.21, 通信=0.99, 更新=465.33, 推理=0.18, 精度成本=0.00
+
+
+=== 任务数 18/20 ===
+任务性能指标: 平均命中率=0.8900, 平均精度=0.7010, 平均云访问率=0.1100
+任务成本指标: 总成本=654.03, 切换=186.98, 通信=1.19, 更新=465.68, 推理=0.18, 精度成本=0.00
+
+
+=== 任务数 19/20 ===
+任务性能指标: 平均命中率=0.9700, 平均精度=0.8393, 平均云访问率=0.0300
+任务成本指标: 总成本=449.20, 切换=19.16, 通信=0.40, 更新=429.44, 推理=0.19, 精度成本=0.00
+
+
+=== 任务数 20/20 ===
+任务性能指标: 平均命中率=0.9600, 平均精度=0.8742, 平均云访问率=0.0400
+任务成本指标: 总成本=568.09, 切换=71.30, 通信=0.50, 更新=496.10, 推理=0.19, 精度成本=0.00
+
+
+=== 所有任务完成 ===
+基于任务平均的总体性能指标:
+  平均命中率=0.9325, 平均精度=0.7719, 平均云访问率=0.0675
+  总成本=10138.27, 切换=1247.70, 通信=15.37, 更新=8871.47, 推理=3.73, 精度成本=0.00
+
+基于时隙平均的总体性能指标:
+  平均命中率=0.9325, 平均精度=0.7719, 平均云访问率=0.0675
+  总成本=10138.27, 切换=1247.70, 通信=15.36, 更新=8871.47, 推理=3.73, 精度成本=0.00
+
+总耗时: 378.75秒
+
+Excel文件已保存: ./results/Greedy/Greedy_TaksNum_20_task_length_100_NoUpdate_NoShared.xlsx
+包含工作表: 最终结果 | 任务性能历史 | 时隙性能数据
+
+===== 使用ID信息初始化模型精度 =====
+
+===== 使用ID信息初始化模型精度 =====
+
+Starting online deployment...
+
+=== Online test, Alg is Meta_OCO
+
+=== 任务数 1/20 ===
+任务性能指标: 平均命中率=0.0100, 平均精度=0.8730, 平均云访问率=0.9900
+任务成本指标: 总成本=432.35, 切换=32.22, 通信=9.90, 更新=390.23, 推理=0.00, 精度成本=0.00
+
+
+=== 任务数 2/20 ===
+任务性能指标: 平均命中率=0.0200, 平均精度=0.6950, 平均云访问率=0.9800
+任务成本指标: 总成本=432.18, 切换=6.41, 通信=9.80, 更新=415.97, 推理=0.00, 精度成本=0.00
+
+
+=== 任务数 3/20 ===
+任务性能指标: 平均命中率=0.9100, 平均精度=0.6805, 平均云访问率=0.0900
+任务成本指标: 总成本=396.17, 切换=3.57, 通信=0.99, 更新=391.43, 推理=0.18, 精度成本=0.00
+
+
+=== 任务数 4/20 ===
+任务性能指标: 平均命中率=0.0000, 平均精度=0.6152, 平均云访问率=1.0000
+任务成本指标: 总成本=340.76, 切换=0.51, 通信=10.00, 更新=330.25, 推理=0.00, 精度成本=0.00
+
+
+=== 任务数 5/20 ===
+任务性能指标: 平均命中率=0.0100, 平均精度=0.9221, 平均云访问率=0.9900
+任务成本指标: 总成本=362.13, 切换=1.98, 通信=9.90, 更新=350.25, 推理=0.00, 精度成本=0.00
+
+
+=== 任务数 6/20 ===
+任务性能指标: 平均命中率=0.0900, 平均精度=0.8624, 平均云访问率=0.9100
+任务成本指标: 总成本=449.60, 切换=4.83, 通信=9.11, 更新=435.64, 推理=0.02, 精度成本=0.00
+
+
+=== 任务数 7/20 ===
+任务性能指标: 平均命中率=0.1600, 平均精度=0.7258, 平均云访问率=0.8400
+任务成本指标: 总成本=461.11, 切换=0.57, 通信=8.42, 更新=452.09, 推理=0.03, 精度成本=0.00
+
+
+=== 任务数 8/20 ===
+任务性能指标: 平均命中率=0.0100, 平均精度=0.8144, 平均云访问率=0.9900
+任务成本指标: 总成本=487.28, 切换=8.89, 通信=9.90, 更新=468.49, 推理=0.00, 精度成本=0.00
+
+
+=== 任务数 9/20 ===
+任务性能指标: 平均命中率=0.8500, 平均精度=0.5984, 平均云访问率=0.1500
+任务成本指标: 总成本=378.79, 切换=1.41, 通信=1.58, 更新=375.62, 推理=0.17, 精度成本=0.00
+
+
+=== 任务数 10/20 ===
+任务性能指标: 平均命中率=0.8600, 平均精度=0.7261, 平均云访问率=0.1400
+任务成本指标: 总成本=408.24, 切换=3.52, 通信=1.49, 更新=403.06, 推理=0.17, 精度成本=0.00
+
+
+=== 任务数 11/20 ===
+任务性能指标: 平均命中率=0.1800, 平均精度=0.6830, 平均云访问率=0.8200
+任务成本指标: 总成本=446.34, 切换=1.03, 通信=8.22, 更新=437.06, 推理=0.04, 精度成本=0.00
+
+
+=== 任务数 12/20 ===
+任务性能指标: 平均命中率=0.1100, 平均精度=0.6418, 平均云访问率=0.8900
+任务成本指标: 总成本=418.26, 切换=3.73, 通信=8.91, 更新=405.59, 推理=0.02, 精度成本=0.00
+
+
+=== 任务数 13/20 ===
+任务性能指标: 平均命中率=0.0100, 平均精度=0.8787, 平均云访问率=0.9900
+任务成本指标: 总成本=400.86, 切换=12.66, 通信=9.90, 更新=378.30, 推理=0.00, 精度成本=0.00
+
+
+=== 任务数 14/20 ===
+任务性能指标: 平均命中率=0.1200, 平均精度=0.8761, 平均云访问率=0.8800
+任务成本指标: 总成本=424.20, 切换=3.94, 通信=8.81, 更新=411.42, 推理=0.02, 精度成本=0.00
+
+
+=== 任务数 15/20 ===
+任务性能指标: 平均命中率=0.9700, 平均精度=0.6755, 平均云访问率=0.0300
+任务成本指标: 总成本=417.41, 切换=1.71, 通信=0.40, 更新=415.11, 推理=0.19, 精度成本=0.00
+
+
+=== 任务数 16/20 ===
+任务性能指标: 平均命中率=0.0200, 平均精度=0.8422, 平均云访问率=0.9800
+任务成本指标: 总成本=398.87, 切换=0.00, 通信=9.80, 更新=389.06, 推理=0.00, 精度成本=0.00
+
+
+=== 任务数 17/20 ===
+任务性能指标: 平均命中率=0.1400, 平均精度=0.9198, 平均云访问率=0.8600
+任务成本指标: 总成本=430.78, 切换=0.57, 通信=8.61, 更新=421.57, 推理=0.03, 精度成本=0.00
+
+
+=== 任务数 18/20 ===
+任务性能指标: 平均命中率=0.8300, 平均精度=0.7011, 平均云访问率=0.1700
+任务成本指标: 总成本=408.64, 切换=0.00, 通信=1.78, 更新=406.69, 推理=0.17, 精度成本=0.00
+
+
+=== 任务数 19/20 ===
+任务性能指标: 平均命中率=0.0100, 平均精度=0.8400, 平均云访问率=0.9900
+任务成本指标: 总成本=423.28, 切换=8.92, 通信=9.90, 更新=404.45, 推理=0.00, 精度成本=0.00
+
+
+=== 任务数 20/20 ===
+任务性能指标: 平均命中率=0.0100, 平均精度=0.8748, 平均云访问率=0.9900
+任务成本指标: 总成本=449.58, 切换=0.00, 通信=9.90, 更新=439.68, 推理=0.00, 精度成本=0.00
+
+
+=== 所有任务完成 ===
+基于任务平均的总体性能指标:
+  平均命中率=0.2660, 平均精度=0.7723, 平均云访问率=0.7340
+  总成本=8366.83, 切换=96.48, 通信=147.33, 更新=8121.96, 推理=1.06, 精度成本=0.00
+
+基于时隙平均的总体性能指标:
+  平均命中率=0.2660, 平均精度=0.7723, 平均云访问率=0.7340
+  总成本=8366.83, 切换=96.48, 通信=147.33, 更新=8121.96, 推理=1.06, 精度成本=0.00
+
+总耗时: 1371.91秒
+
+Excel文件已保存: ./results/Meta_OCO/Meta_OCO_TaksNum_20_task_length_100_NoUpdate_NoShared.xlsx
+包含工作表: 最终结果 | 任务性能历史 | 时隙性能数据
+
+===== 使用ID信息初始化模型精度 =====
+
+===== 使用ID信息初始化模型精度 =====
+
+Starting online deployment...
+
+=== Online test, Alg is LRU
+
+=== 任务数 1/20 ===
+任务性能指标: 平均命中率=1.0000, 平均精度=0.8725, 平均云访问率=0.0000
+任务成本指标: 总成本=291.55, 切换=9.18, 通信=0.10, 更新=282.07, 推理=0.20, 精度成本=0.00
+
+
+=== 任务数 2/20 ===
+任务性能指标: 平均命中率=1.0000, 平均精度=0.6944, 平均云访问率=0.0000
+任务成本指标: 总成本=332.15, 切换=3.13, 通信=0.10, 更新=328.72, 推理=0.20, 精度成本=0.00
+
+
+=== 任务数 3/20 ===
+任务性能指标: 平均命中率=1.0000, 平均精度=0.6802, 平均云访问率=0.0000
+任务成本指标: 总成本=325.75, 切换=1.47, 通信=0.10, 更新=323.97, 推理=0.20, 精度成本=0.00
+
+
+=== 任务数 4/20 ===
+任务性能指标: 平均命中率=1.0000, 平均精度=0.6151, 平均云访问率=0.0000
+任务成本指标: 总成本=620.27, 切换=255.05, 通信=0.10, 更新=364.93, 推理=0.20, 精度成本=0.00
+
+
+=== 任务数 5/20 ===
+任务性能指标: 平均命中率=1.0000, 平均精度=0.9215, 平均云访问率=0.0000
+任务成本指标: 总成本=422.73, 切换=6.56, 通信=0.10, 更新=415.88, 推理=0.20, 精度成本=0.00
+
+
+=== 任务数 6/20 ===
+任务性能指标: 平均命中率=1.0000, 平均精度=0.8620, 平均云访问率=0.0000
+任务成本指标: 总成本=434.59, 切换=26.82, 通信=0.10, 更新=407.47, 推理=0.20, 精度成本=0.00
+
+
+=== 任务数 7/20 ===
+任务性能指标: 平均命中率=1.0000, 平均精度=0.7255, 平均云访问率=0.0000
+任务成本指标: 总成本=441.39, 切换=16.87, 通信=0.10, 更新=424.21, 推理=0.20, 精度成本=0.00
+
+
+=== 任务数 8/20 ===
+任务性能指标: 平均命中率=1.0000, 平均精度=0.8138, 平均云访问率=0.0000
+任务成本指标: 总成本=402.15, 切换=20.36, 通信=0.10, 更新=381.50, 推理=0.20, 精度成本=0.00
+
+
+=== 任务数 9/20 ===
+任务性能指标: 平均命中率=1.0000, 平均精度=0.5986, 平均云访问率=0.0000
+任务成本指标: 总成本=380.42, 切换=8.39, 通信=0.10, 更新=371.73, 推理=0.20, 精度成本=0.00
+
+
+=== 任务数 10/20 ===
+任务性能指标: 平均命中率=1.0000, 平均精度=0.7259, 平均云访问率=0.0000
+任务成本指标: 总成本=415.51, 切换=4.23, 通信=0.10, 更新=410.99, 推理=0.20, 精度成本=0.00
+
+
+=== 任务数 11/20 ===
+任务性能指标: 平均命中率=1.0000, 平均精度=0.6825, 平均云访问率=0.0000
+任务成本指标: 总成本=417.69, 切换=13.83, 通信=0.10, 更新=403.57, 推理=0.20, 精度成本=0.00
+
+
+=== 任务数 12/20 ===
+任务性能指标: 平均命中率=1.0000, 平均精度=0.6415, 平均云访问率=0.0000
+任务成本指标: 总成本=467.77, 切换=69.54, 通信=0.10, 更新=397.93, 推理=0.20, 精度成本=0.00
+
+
+=== 任务数 13/20 ===
+任务性能指标: 平均命中率=1.0000, 平均精度=0.8778, 平均云访问率=0.0000
+任务成本指标: 总成本=418.11, 切换=11.88, 通信=0.10, 更新=405.93, 推理=0.20, 精度成本=0.00
+
+
+=== 任务数 14/20 ===
+任务性能指标: 平均命中率=1.0000, 平均精度=0.8757, 平均云访问率=0.0000
+任务成本指标: 总成本=444.24, 切换=6.65, 通信=0.10, 更新=437.28, 推理=0.20, 精度成本=0.00
+
+
+=== 任务数 15/20 ===
+任务性能指标: 平均命中率=1.0000, 平均精度=0.6755, 平均云访问率=0.0000
+任务成本指标: 总成本=407.60, 切换=1.09, 通信=0.10, 更新=406.20, 推理=0.20, 精度成本=0.00
+
+
+=== 任务数 16/20 ===
+任务性能指标: 平均命中率=1.0000, 平均精度=0.8418, 平均云访问率=0.0000
+任务成本指标: 总成本=414.62, 切换=14.72, 通信=0.10, 更新=399.60, 推理=0.20, 精度成本=0.00
+
+
+=== 任务数 17/20 ===
+任务性能指标: 平均命中率=1.0000, 平均精度=0.9191, 平均云访问率=0.0000
+任务成本指标: 总成本=437.27, 切换=28.43, 通信=0.10, 更新=408.54, 推理=0.20, 精度成本=0.00
+
+
+=== 任务数 18/20 ===
+任务性能指标: 平均命中率=1.0000, 平均精度=0.7011, 平均云访问率=0.0000
+任务成本指标: 总成本=502.59, 切换=67.16, 通信=0.10, 更新=435.13, 推理=0.20, 精度成本=0.00
+
+
+=== 任务数 19/20 ===
+任务性能指标: 平均命中率=1.0000, 平均精度=0.8393, 平均云访问率=0.0000
+任务成本指标: 总成本=240.18, 切换=12.53, 通信=0.10, 更新=227.34, 推理=0.20, 精度成本=0.00
+
+
+=== 任务数 20/20 ===
+任务性能指标: 平均命中率=1.0000, 平均精度=0.8744, 平均云访问率=0.0000
+任务成本指标: 总成本=474.04, 切换=21.64, 通信=0.10, 更新=452.10, 推理=0.20, 精度成本=0.00
+
+
+=== 所有任务完成 ===
+基于任务平均的总体性能指标:
+  平均命中率=1.0000, 平均精度=0.7719, 平均云访问率=0.0000
+  总成本=8290.62, 切换=599.54, 通信=2.00, 更新=7685.08, 推理=4.00, 精度成本=0.00
+
+基于时隙平均的总体性能指标:
+  平均命中率=1.0000, 平均精度=0.7719, 平均云访问率=0.0000
+  总成本=8290.62, 切换=599.54, 通信=2.00, 更新=7685.08, 推理=4.00, 精度成本=0.00
+
+总耗时: 1385.94秒
+
+Excel文件已保存: ./results/LRU/LRU_TaksNum_20_task_length_100_NoUpdate_NoShared.xlsx
+包含工作表: 最终结果 | 任务性能历史 | 时隙性能数据
+
+===== 使用ID信息初始化模型精度 =====
+============================================================
+Shared Mode: ENABLED
+============================================================
+静态张量预计算完成
+预加载数据形状: torch.Size([1000000, 1, 660])
+模型已从 ./saved_models/meta_policy_Test_Innerlr0.1_Melr0.01_HIDDEN_DIM256_train_NumTask100_epoch130.pth 加载
+Model load success
+logit_scale               | scalar param (value=0.1000)
+fc1.weight                | mean=-0.0000, std=0.0263
+fc1.bias                  | mean=0.0000, std=0.0000
+fc2.weight                | mean=-0.0001, std=0.0626
+fc2.bias                  | mean=0.0000, std=0.0000
+fc_out.weight             | mean=0.0000, std=0.0004
+fc_out.bias               | mean=0.0000, std=0.0000
+ln1.weight                | mean=1.0000, std=0.0000
+ln1.bias                  | mean=0.0000, std=0.0000
+ln2.weight                | mean=1.0000, std=0.0000
+ln2.bias                  | mean=0.0000, std=0.0000
+
+=== Model Parameter Summary ===
+Total parameters     : 1,082,409
+Trainable parameters : 1,082,409
+Checked layers       : 11
+Mean range           : (-8.375808829441667e-05, 1.0)
+Std range            : (0.0, 0.06264811754226685)
+Model status         : OK
+模型参数检查通过，模型加载正常。
+[MEBO] 使用元学习先验初始化
+[初始化] 已加载元学习先验参数 (种子: 818758767)
+Meta-training completed!
+==================================================
+
+
+===== 使用ID信息初始化模型精度 =====
+
+Starting online deployment...
+
+=== Online test, Alg is MEBO
+
+=== 任务数 1/20 ===
+步骤 10000: 平均耗时 0.2249s, 总调用 1
+任务性能指标: 平均命中率=0.0000, 平均精度=0.8730, 平均云访问率=1.0000
+任务成本指标: 总成本=404.57, 切换=71.52, 通信=10.00, 更新=323.05, 推理=0.00, 精度成本=0.00
+
+
+=== 任务数 2/20 ===
+任务性能指标: 平均命中率=0.9500, 平均精度=0.6922, 平均云访问率=0.0500
+任务成本指标: 总成本=284.67, 切换=0.00, 通信=0.60, 更新=283.88, 推理=0.19, 精度成本=0.00
+
+
+=== 任务数 3/20 ===
+任务性能指标: 平均命中率=0.9900, 平均精度=0.6795, 平均云访问率=0.0100
+任务成本指标: 总成本=162.19, 切换=0.00, 通信=0.20, 更新=161.79, 推理=0.20, 精度成本=0.00
+
+
+=== 任务数 4/20 ===
+任务性能指标: 平均命中率=0.6400, 平均精度=0.6134, 平均云访问率=0.3600
+任务成本指标: 总成本=68.41, 切换=0.00, 通信=3.66, 更新=64.62, 推理=0.13, 精度成本=0.00
+
+
+=== 任务数 5/20 ===
+任务性能指标: 平均命中率=0.0100, 平均精度=0.9221, 平均云访问率=0.9900
+任务成本指标: 总成本=26.07, 切换=0.00, 通信=9.90, 更新=16.17, 推理=0.00, 精度成本=0.00
+
+
+=== 任务数 6/20 ===
+步骤 10500: 平均耗时 0.0494s, 总调用 501
+任务性能指标: 平均命中率=0.0100, 平均精度=0.8623, 平均云访问率=0.9900
+任务成本指标: 总成本=12.43, 切换=0.00, 通信=9.90, 更新=2.53, 推理=0.00, 精度成本=0.00
+
+
+=== 任务数 7/20 ===
+任务性能指标: 平均命中率=0.8400, 平均精度=0.7139, 平均云访问率=0.1600
+任务成本指标: 总成本=1.85, 切换=0.00, 通信=1.68, 更新=0.00, 推理=0.17, 精度成本=0.00
+
+
+=== 任务数 8/20 ===
+任务性能指标: 平均命中率=0.1300, 平均精度=0.8116, 平均云访问率=0.8700
+任务成本指标: 总成本=8.74, 切换=0.00, 通信=8.71, 更新=0.00, 推理=0.03, 精度成本=0.00
+
+
+=== 任务数 9/20 ===
+任务性能指标: 平均命中率=0.8800, 平均精度=0.5517, 平均云访问率=0.1200
+任务成本指标: 总成本=2.27, 切换=0.00, 通信=1.29, 更新=0.00, 推理=0.18, 精度成本=0.81
+
+
+=== 任务数 10/20 ===
+任务性能指标: 平均命中率=0.6500, 平均精度=0.6854, 平均云访问率=0.3500
+任务成本指标: 总成本=3.70, 切换=0.00, 通信=3.56, 更新=0.00, 推理=0.13, 精度成本=0.00
+
+
+=== 任务数 11/20 ===
+步骤 11000: 平均耗时 0.0517s, 总调用 1001
+任务性能指标: 平均命中率=0.8500, 平均精度=0.6307, 平均云访问率=0.1500
+任务成本指标: 总成本=1.98, 切换=0.00, 通信=1.58, 更新=0.00, 推理=0.17, 精度成本=0.23
+
+
+=== 任务数 12/20 ===
+任务性能指标: 平均命中率=0.2800, 平均精度=0.6226, 平均云访问率=0.7200
+任务成本指标: 总成本=7.50, 切换=0.00, 通信=7.23, 更新=0.00, 推理=0.06, 精度成本=0.22
+
+
+=== 任务数 13/20 ===
+任务性能指标: 平均命中率=0.0300, 平均精度=0.8766, 平均云访问率=0.9700
+任务成本指标: 总成本=9.72, 切换=0.00, 通信=9.70, 更新=0.00, 推理=0.01, 精度成本=0.02
+
+
+=== 任务数 14/20 ===
+任务性能指标: 平均命中率=0.0000, 平均精度=0.8762, 平均云访问率=1.0000
+任务成本指标: 总成本=10.00, 切换=0.00, 通信=10.00, 更新=0.00, 推理=0.00, 精度成本=0.00
+
+
+=== 任务数 15/20 ===
+任务性能指标: 平均命中率=1.0000, 平均精度=0.6118, 平均云访问率=0.0000
+任务成本指标: 总成本=0.34, 切换=0.00, 通信=0.10, 更新=0.00, 推理=0.20, 精度成本=0.04
+
+
+=== 任务数 16/20 ===
+步骤 11500: 平均耗时 0.0525s, 总调用 1501
+任务性能指标: 平均命中率=0.0200, 平均精度=0.8409, 平均云访问率=0.9800
+任务成本指标: 总成本=9.81, 切换=0.00, 通信=9.80, 更新=0.00, 推理=0.00, 精度成本=0.00
+
+
+=== 任务数 17/20 ===
+任务性能指标: 平均命中率=0.0400, 平均精度=0.9172, 平均云访问率=0.9600
+任务成本指标: 总成本=9.64, 切换=0.00, 通信=9.60, 更新=0.00, 推理=0.01, 精度成本=0.03
+
+
+=== 任务数 18/20 ===
+任务性能指标: 平均命中率=0.7800, 平均精度=0.6508, 平均云访问率=0.2200
+任务成本指标: 总成本=2.49, 切换=0.00, 通信=2.28, 更新=0.00, 推理=0.16, 精度成本=0.06
+
+
+=== 任务数 19/20 ===
+任务性能指标: 平均命中率=0.1900, 平均精度=0.8281, 平均云访问率=0.8100
+任务成本指标: 总成本=8.16, 切换=0.00, 通信=8.12, 更新=0.00, 推理=0.04, 精度成本=0.00
+
+
+=== 任务数 20/20 ===
+任务性能指标: 平均命中率=0.0100, 平均精度=0.8741, 平均云访问率=0.9900
+任务成本指标: 总成本=9.90, 切换=0.00, 通信=9.90, 更新=0.00, 推理=0.00, 精度成本=0.00
+
+
+=== 所有任务完成 ===
+基于任务平均的总体性能指标:
+  平均命中率=0.4150, 平均精度=0.7567, 平均云访问率=0.5850
+  总成本=1044.45, 切换=71.52, 通信=117.83, 更新=852.05, 推理=1.66, 精度成本=1.40
+
+基于时隙平均的总体性能指标:
+  平均命中率=0.4150, 平均精度=0.7567, 平均云访问率=0.5850
+  总成本=1044.45, 切换=71.52, 通信=117.83, 更新=852.05, 推理=1.66, 精度成本=1.40
+
+总耗时: 1503.86秒
+
+Excel文件已保存: ./results/MEBO/MEBO_TaksNum_20_metalr0.01_inner_lr0.1_init_points10_task_length_100_NoUpdate_NoShared.xlsx
+包含工作表: 最终结果 | 任务性能历史 | 时隙性能数据
+
+===== 使用ID信息初始化模型精度 =====
